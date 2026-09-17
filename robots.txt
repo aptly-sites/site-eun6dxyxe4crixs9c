@@ -1,0 +1,41 @@
+# Allow AI search/citation crawlers (needed to appear in AI-generated answers)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Standard search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block non-compliant/training-only scrapers (optional but recommended)
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Default
+User-agent: *
+Allow: /
+
+Sitemap: https://www.equityteam.com/sitemap.xml
