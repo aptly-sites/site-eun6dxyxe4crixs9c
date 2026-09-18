@@ -1,4 +1,4 @@
-import { useState, useEffect, ElementType, type ReactNode } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { SEO } from "@/components/SEO";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -21,11 +21,6 @@ import {
   ChartLineUp,
   Briefcase,
   Users,
-  UserPlus,
-  Storefront,
-  Scroll,
-  Truck,
-  SignOut,
 } from "@phosphor-icons/react";
 
 const BASE = import.meta.env.BASE_URL;
@@ -49,41 +44,6 @@ function CheckItem({ children }: { children: React.ReactNode }) {
       <CheckSquare size={18} weight="thin" className="text-secondary flex-shrink-0 mt-0.5" />
       <span>{children}</span>
     </li>
-  );
-}
-
-/* ── Lifecycle card helpers ── */
-function LifecycleStandaloneCard({ item }: { item: { icon: ElementType; title: string; body: string } }) {
-  const Icon = item.icon;
-  return (
-    <div className="border border-secondary bg-[#fdf9f3] px-5 py-4 text-center">
-      <Icon size={22} weight="thin" className="text-secondary mx-auto mb-2" />
-      <h3 className="font-sans font-bold text-base uppercase tracking-[0.06em] text-black mb-1.5">{item.title}</h3>
-      <p className="font-sans text-base text-black/60 leading-relaxed">{item.body}</p>
-    </div>
-  );
-}
-
-function LifecycleCircleCard({ item }: { item: { icon: ElementType; title: string; body: string } }) {
-  const Icon = item.icon;
-  return (
-    <div className="border border-[#d8d3ca] bg-white px-4 py-4 text-center hover:border-secondary transition-colors duration-200">
-      <Icon size={20} weight="thin" className="text-secondary mx-auto mb-1.5" />
-      <h3 className="font-sans font-bold text-base uppercase tracking-[0.05em] text-black mb-1.5">{item.title}</h3>
-      <p className="font-sans text-base text-black/60 leading-relaxed">{item.body}</p>
-    </div>
-  );
-}
-
-/* ── Lifecycle mobile item ── */
-function LifecycleMobileCard({ item, standalone }: { item: { icon: ElementType; title: string; body: string }; standalone?: boolean }) {
-  const Icon = item.icon;
-  return (
-    <div className={`w-full max-w-sm px-6 py-5 text-center ${standalone ? "border border-secondary bg-[#fdf9f3]" : "border border-[#d8d3ca] bg-white"}`}>
-      <Icon size={24} weight="thin" className="text-secondary mx-auto mb-2" />
-      <h3 className="font-sans font-bold text-base uppercase tracking-[0.06em] text-black mb-2">{item.title}</h3>
-      <p className="font-sans text-base text-black/60 leading-relaxed">{item.body}</p>
-    </div>
   );
 }
 
@@ -125,41 +85,6 @@ const TRUST_STATS = [
   { label: "Avg Days to Lease", value: "13" },
   { label: "Eviction Rate", value: "<1%" },
 ];
-
-const LIFECYCLE_TOP = {
-  icon: UserPlus,
-  title: "Onboarding",
-  body: "Sign management agreement; Rent Ready inspection; meet your dedicated Property Manager.",
-};
-
-const LIFECYCLE_CIRCLE: Array<{ icon: ElementType; title: string; body: string }> = [
-  {
-    icon: Storefront,
-    title: "Prepare for Market",
-    body: "Rent Ready prep; quality photos, video & virtual tours; pricing to maximize rate.",
-  },
-  {
-    icon: Key,
-    title: "Leasing & Move In",
-    body: "Multi-platform listing; showing management; multi-level screening; lease drafting and signing; documented move-in inspection.",
-  },
-  {
-    icon: Scroll,
-    title: "Tenancy & Renewals; MX",
-    body: "Rent collection; maintenance coordination; lease enforcement; proactive renewal management.",
-  },
-  {
-    icon: Truck,
-    title: "Move Out",
-    body: "Move-out inspection; security deposit disposition; fast market turn.",
-  },
-];
-
-const LIFECYCLE_BOTTOM = {
-  icon: SignOut,
-  title: "Offboarding",
-  body: "Sale, transfer, or pause — settled promptly and professionally.",
-};
 
 const OWNER_SERVICES_GROUPED = [
   {
@@ -843,138 +768,30 @@ export default function ResidentialPropertyManagement() {
         </div>
       </section>
 
-      {/* ══════════════════════════════════════
+      {/* ═════════════════════
           4. HOW IT WORKS
-      ══════════════════════════════════════ */}
-      <section className="bg-white section-pad">
-        <div className="max-w-screen-xl mx-auto">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="section-heading text-black">The Property Management Lifecycle</h2>
-          </div>
-
-          {/* ── Shared SVG marker defs (document-global IDs) ── */}
-          <svg width="0" height="0" className="absolute overflow-hidden" aria-hidden="true">
-            <defs>
-              <marker id="lc-down" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
-                <polygon points="0 0, 8 0, 4 8" fill="#B4975A" fillOpacity="0.85" />
-              </marker>
-              <marker id="lc-right" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-                <polygon points="0 0, 0 8, 8 4" fill="#B4975A" fillOpacity="0.85" />
-              </marker>
-              <marker id="lc-up" markerWidth="8" markerHeight="8" refX="4" refY="1" orient="auto">
-                <polygon points="0 8, 8 8, 4 0" fill="#B4975A" fillOpacity="0.85" />
-              </marker>
-            </defs>
-          </svg>
-
-          {/* ── Desktop: horizontal linear flow ── */}
-          <div className="hidden md:block">
-
-            {/* Row A — Onboarding above first card */}
-            <div className="flex items-end mb-6">
-              <div className="w-1/3">
-                <LifecycleStandaloneCard item={LIFECYCLE_TOP} />
-              </div>
-              <div className="flex-1" />
-            </div>
-
-            {/* Row B — 4 cycle cards with right-arrows between */}
-            <div className="flex items-stretch">
-              <div className="flex-1 min-w-0"><LifecycleCircleCard item={LIFECYCLE_CIRCLE[0]} /></div>
-              <div className="w-10 flex items-center justify-center flex-shrink-0">
-                <svg width="36" height="14" fill="none" aria-hidden="true">
-                  <line x1="0" y1="7" x2="31" y2="7" stroke="#B4975A" strokeWidth="1.5" strokeOpacity="0.85" markerEnd="url(#lc-right)" />
-                </svg>
-              </div>
-              <div className="flex-1 min-w-0"><LifecycleCircleCard item={LIFECYCLE_CIRCLE[1]} /></div>
-              <div className="w-10 flex items-center justify-center flex-shrink-0">
-                <svg width="36" height="14" fill="none" aria-hidden="true">
-                  <line x1="0" y1="7" x2="31" y2="7" stroke="#B4975A" strokeWidth="1.5" strokeOpacity="0.85" markerEnd="url(#lc-right)" />
-                </svg>
-              </div>
-              <div className="flex-1 min-w-0"><LifecycleCircleCard item={LIFECYCLE_CIRCLE[2]} /></div>
-              <div className="w-10 flex items-center justify-center flex-shrink-0">
-                <svg width="36" height="14" fill="none" aria-hidden="true">
-                  <line x1="0" y1="7" x2="31" y2="7" stroke="#B4975A" strokeWidth="1.5" strokeOpacity="0.85" markerEnd="url(#lc-right)" />
-                </svg>
-              </div>
-              <div className="flex-1 min-w-0"><LifecycleCircleCard item={LIFECYCLE_CIRCLE[3]} /></div>
-            </div>
-
-            {/* Row C — Loop arc: Move Out curves back to Prepare for Market. */}
-            <div className="relative w-full">
-              <svg
-                viewBox="0 0 1000 52"
-                preserveAspectRatio="none"
-                className="w-full"
-                style={{ height: 52, display: 'block' }}
-                fill="none"
-                aria-hidden="true"
-              >
-                <path
-                  d="M 875,4 C 780,56 220,56 125,4"
-                  stroke="#B4975A"
-                  strokeOpacity="0.55"
-                  strokeWidth="1.5"
-                  markerEnd="url(#lc-right)"
-                  vectorEffect="non-scaling-stroke"
-                />
-              </svg>
-              <span className="block text-center font-sans text-base uppercase tracking-[0.16em] text-secondary/45 select-none mt-1">
-                repeat
-              </span>
-            </div>
-
-            {/* Row D — Offboarding below last card */}
-            <div className="flex items-start">
-              <div className="flex-1" />
-              <div className="w-1/3">
-                <LifecycleStandaloneCard item={LIFECYCLE_BOTTOM} />
-              </div>
-            </div>
-
-          </div>
-
-          {/* ── Mobile: numbered vertical list ── */}
-          <div className="md:hidden flex flex-col items-center gap-0">
-
-            {/* Onboarding — entry */}
-            <LifecycleMobileCard item={LIFECYCLE_TOP} standalone />
-
-            {/* Entry connector */}
-            <div className="w-px h-6 bg-secondary/40" />
-
-            {/* Numbered cycle steps */}
-            {LIFECYCLE_CIRCLE.map((item, i) => {
-              const Icon = item.icon;
-              return (
-                <div key={item.title} className="flex flex-col items-center w-full">
-                  <div className="w-full max-w-sm border border-[#d8d3ca] bg-white px-6 py-5 text-center relative">
-                    <span className="absolute top-3 right-3 font-sans font-bold text-xs tracking-[0.12em] text-secondary/50 uppercase">
-                      Step {i + 1}
-                    </span>
-                    <Icon size={22} weight="thin" className="text-secondary mx-auto mb-2" />
-                    <h3 className="font-sans font-bold text-base uppercase tracking-[0.06em] text-black mb-2">{item.title}</h3>
-                    <p className="font-sans text-base text-black/60 leading-relaxed">{item.body}</p>
-                  </div>
-                  {i < LIFECYCLE_CIRCLE.length - 1 && (
-                    <div className="w-px h-6 bg-secondary/40" />
-                  )}
-                </div>
-              );
-            })}
-
-            {/* Loop-back note */}
-            <p className="font-sans text-sm text-black/40 tracking-[0.06em] uppercase mt-3 mb-1">↺ Cycle repeats</p>
-
-            {/* Exit connector */}
-            <div className="w-px h-6 bg-secondary/40" />
-
-            {/* Offboarding — exit */}
-            <LifecycleMobileCard item={LIFECYCLE_BOTTOM} standalone />
-
-          </div>
-
+      ═════════════════════ */}
+      <section className="bg-[#f8f5ef] py-8 md:py-12 px-4 md:px-8">
+        <div className="max-w-[1728px] mx-auto">
+          <h2 className="sr-only">The Property Management Lifecycle</h2>
+          <a
+            href={`${BASE}images/property-management-lifecycle.jpg`}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open the Property Management Lifecycle graphic at full size"
+            className="block"
+          >
+            <img
+              src={`${BASE}images/property-management-lifecycle.jpg`}
+              alt="EquityTeam property management lifecycle from onboarding through market preparation, leasing, tenancy and renewals, move-out, and offboarding"
+              width={1728}
+              height={910}
+              loading="lazy"
+              decoding="async"
+              className="block h-auto w-full"
+            />
+          </a>
+          <p className="mt-3 text-center font-sans text-sm text-black/60 md:hidden">Tap the lifecycle graphic to view it at full size.</p>
         </div>
       </section>
 
