@@ -1,0 +1,4 @@
+- [GitHub pull workflow](github-pull.md) — workspace often behind GitHub; pull every session via API blob diff (no git fetch/merge needed).
+- [FAQ location system](faq-location-system.md) — 84-slug FAQ system fully built & wired; all TS errors on those files resolved.
+- [Auto-push guardrail](auto-push-guardrail.md) — "Sync from Replit" commits came from task agents running the push script; replit.md now forbids unrequested pushes.
+- [SMTP email delivery](smtp-email.md) — SMTP_PASS must be a Gmail App Password; failed sends stay in DB, restart API server after secret changes.

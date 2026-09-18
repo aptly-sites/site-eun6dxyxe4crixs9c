@@ -1,0 +1,589 @@
+uploads = []
+
+[[generated]]
+id = "cCvexKCnt7M4INSOAgJwb"
+uri = "file://attached_assets/generated_images/generated_image.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "mI-ISuSbWWbPWp8oGlU8Y"
+uri = "file://artifacts/et-website-v1/public/images/home-hero-bg.jpg.png"
+type = "image"
+title = "red brick colonial hero"
+
+[[generated]]
+id = "UO208fwJ7sLnDRzyb6ShM"
+uri = "file://artifacts/et-website-v1/public/images/property-services.png"
+type = "image"
+title = "property manager and homeowner landscape"
+
+[[generated]]
+id = "qfDaWUK8GjsqjVLGaW9IR"
+uri = "file://artifacts/et-website-v1/public/images/cincinnati-skyline.png"
+type = "image"
+title = "cincinnati skyline devou park sunset"
+
+[[generated]]
+id = "W5feTvCU3ZpE1_iNeN4od"
+uri = "file://artifacts/et-website-v1/public/images/locations/cincinnati-golden-hour.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ISHxM-gkqHSIM__qIychq"
+uri = "file://artifacts/et-website-v1/public/images/locations/dayton-golden-hour.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "-xqg2vYC2znw9Ci4zNuHF"
+uri = "file://artifacts/et-website-v1/public/images/locations/norris-lake-golden-hour.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "F80JKS45rxVYFbvr6jFPN"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/blue-ash-hero.png"
+type = "image"
+title = "Summit Park Blue Ash Ohio hero"
+
+[[generated]]
+id = "PhSSPPU7fYjwTiZeLFQOL"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/camp-washington-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "-OIKT0EXdXibLca5b-mew"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/clifton-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Yr0O3B3LM5TSdGGr0bdTw"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/college-hill-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "HJVW4P0zMLSemMmvUpF6G"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/columbia-tusculum-hero.png"
+type = "image"
+title = "columbia tusculum urban brick home"
+
+[[generated]]
+id = "SdCZAUuLoSLP9OnM_s2FK"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/deer-park-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "U-09_32emfi2ytUXFJyWr"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/delhi-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "AK3vTgcRl6eCog1LbXfks"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/downtown-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "B0Z4_XgDFiu8rYoWie7hs"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/east-walnut-hills-hero.png"
+type = "image"
+title = "east walnut hills modest brick home golden hour"
+
+[[generated]]
+id = "FirnaNgsX2zGxc1R9Nb5j"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/evanston-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "TiHtroDxCPxe-uCesJmuN"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/forest-park-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "xKur0dLYw0pweq3autAhe"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/hamilton-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "VY6Y9_NxsoIDKazB5ZaeL"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/harrison-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "-tSv18hhGS2yI0_FI7BUE"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/hyde-park-hero.png"
+type = "image"
+title = "hyde park modest brick home"
+
+[[generated]]
+id = "TBH6cjsU7T82fsvzROywM"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/indian-hill-hero.png"
+type = "image"
+title = "indian hill ranch house wooded"
+
+[[generated]]
+id = "TdUFLnTEx9eyN4c1Mjovp"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/kennedy-heights-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "G_nzNbMV-l6BduGlcaF_l"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/kenwood-hero.png"
+type = "image"
+title = "kenwood brick ranch single story"
+
+[[generated]]
+id = "flcS3JZROgnN65uyKsNpp"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/loveland-hero.png"
+type = "image"
+title = "loveland modest ranch house golden hour"
+
+[[generated]]
+id = "r1xlVWMD2OOeuX6xVoP2f"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/madisonville-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "dkSbycHucl8Uc2AHlaGPw"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/mariemont-hero.png"
+type = "image"
+title = "mariemont modest tudor cottage"
+
+[[generated]]
+id = "oJb9YMiV093Xrwles-edj"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/middletown-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ARzY3kJcSP51kQTKK1mIh"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/montgomery-hero.png"
+type = "image"
+title = "montgomery suburban colonial home"
+
+[[generated]]
+id = "ZpOfu0HlsrN6rqnnFyXJI"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/mount-auburn-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ogx3IOJfML3HeLHf1VRvD"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/mount-lookout-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "-ttzepwcKv1eyZN86xpf9"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/mount-washington-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "PoEaVdmfmHzg1zfYqK9Z0"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/mt-adams-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "3q1rR8nkRNuP5TTMGvfhO"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/northside-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Ydz77iQOf_UuTsnT8Awpw"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/norwood-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "9VmZJpnslykFfVe4qLpUg"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/oakley-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "YqBolasu-B4PxMeLjZMvH"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/over-the-rhine-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "-W08MowcO824WrzTW8OJg"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/pleasant-ridge-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Y3zyxB7uhcieYFYlKUj6r"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/sayler-park-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "0zsjGvcBRth71MG0oDhz0"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/sycamore-hero.png"
+type = "image"
+title = "sycamore suburban modest home"
+
+[[generated]]
+id = "HWAN4gd6lb3FkDoVlDfQc"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/terrace-park-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "SwalUXj9YxD83wrMoM9Df"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/walnut-hills-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "FQ2zqMD9gwXpILqJVTJ9r"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/western-hills-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "FDydIanzagsmW75UECXyc"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/westwood-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "d1tox3D6U659myUsRlEas"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/winton-place-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "U4GMO1zBY74_ow_NzNGiw"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/beavercreek-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "fWZ0WWLn3uVILjZkyMDYV"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/centerville-hero.png"
+type = "image"
+title = "centerville suburban colonial siding"
+
+[[generated]]
+id = "UFXB6UjSzO42V0XlAJnzg"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/clayton-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "pX0E9P6m5oCuNTA-ANqkQ"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/dayton-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "vHOpJNRh8mJhHONXnjPGn"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/englewood-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "aXvM-rAkaaCZ0ay41Ua0T"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/fairborn-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "7uLm6LpgOoYuAlffAg1MN"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/franklin-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "5lqPpTky6jpTvvauRj9Ie"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/germantown-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "YrvGchDqYE-woF07ji1Cz"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/harrison-township-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "RCMSycybpdkB_FKAYWuqG"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/huber-heights-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "1ePslAv8Vb2XTIEbnJktO"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/kettering-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "blvlY8-JEFASeYj7XgKEO"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/miami-township-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "wSu0teNJt8al5ld0pSy4u"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/miamisburg-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "XRIgc5cJzFcCkTC5vOKOg"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/oakwood-hero.png"
+type = "image"
+title = "oakwood dayton brick bungalow"
+
+[[generated]]
+id = "Vl6mcQHHwu2esGVTCoDnw"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/riverside-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "HQMJpATAtCoqQPvxDczxK"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/springboro-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "tx7dyf14xLeI88lv0m9WJ"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/trotwood-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "dYf6VFimCGazx5CyhXxgz"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/vandalia-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ebBYgt9Wv3j19NJ5MWS0G"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/washington-township-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "I6A5l6rxqaWrsJ6UFBPQ0"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/west-carrollton-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "qeWvsGvULBArw7Kigi9DP"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/xenia-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "l3G8EaiyheSYm4MPwAAQ_"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/norris-lake-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ie6vH2SVTZTVFzC3mANEb"
+uri = "file://artifacts/et-website-v1/public/images/property-management.png"
+type = "image"
+title = "pm hero brick ranch woman"
+
+[[generated]]
+id = "oAdj8M4bZGXP1uD4xyCGu"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/blue-ash-hero-golden.png"
+type = "image"
+title = "blue ash summit park lawn aerial golden hour"
+
+[[generated]]
+id = "uH-L3Et2VPy14rXqXqspA"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/amberley-village-hero.png"
+type = "image"
+title = "amberley village golden hour house hero"
+
+[[generated]]
+id = "UR0CdgbuOgV3cxX56TW7N"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/blue-ash-hero.jpg.png"
+type = "image"
+title = "summit park blue ash canopy plaza dusk"
+
+[[generated]]
+id = "pUaGyGCuNImFG2x3Px4HM"
+uri = "file://attached_assets/generated_images/aerial_view_of_springdale_b76d.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "YvNuWDkPESiKexaSGS4vd"
+uri = "file://attached_assets/generated_images/charming_brick_colonial_house_40be.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "4QmUU2Ctgf2gM05KQX88r"
+uri = "file://attached_assets/generated_images/elegant_traditional_craftsman_home_55f4.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ZZlT2GxjZj-F2Y7DfpY_J"
+uri = "file://attached_assets/generated_images/suburban_neighborhood_street_in_0ec5.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ypqSoAfgWDnGUOiSWGVHE"
+uri = "file://attached_assets/generated_images/upscale_suburban_neighborhood_in_7d96.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "_YH0Xiuy2twcIrN_vJGEm"
+uri = "file://attached_assets/generated_images/suburban_neighborhood_in_vandalia_c04a.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "yrtmrQUAy2M48thUQ2t6l"
+uri = "file://attached_assets/generated_images/upscale_suburban_neighborhood_in_26fc.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "su26Xh0XWJbcYa0tdniG_"
+uri = "file://artifacts/et-website-v1/public/images/heroes/vacation-rental-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "WIIaVvHy7I_EVrBdGWhQM"
+uri = "file://artifacts/et-website-v1/public/images/heroes/commercial-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "y-bdeT6iErIpYraJ0pGKN"
+uri = "file://artifacts/et-website-v1/public/images/heroes/hoa-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "mE2F_VEe2DApA5M7T19ET"
+uri = "file://artifacts/et-website-v1/public/images/heroes/shared-living-hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "kWnRNxacix61ieNWLDH14"
+uri = "file://artifacts/et-website-v1/public/images/heroes/property-services-hero.png"
+type = "image"
+title = "generated_image"
+
+[[outputs]]
+id = "j76OD3PI5h8BlfSc2rt8B"
+uri = "file://attached_assets/stock_images/mount-auburn-cincinnati.jpg"
+type = "image"
+title = "Mount Auburn Cincinnati Ohio neighborhood historic Victorian homes on hillside"
+
+[[outputs]]
+id = "RS5vaEeNgjSX6_CXtVB8U"
+uri = "file://attached_assets/stock_images/winton-place-cincinnati.jpg"
+type = "image"
+title = "Winton Place Cincinnati Ohio neighborhood street scene residential community"
+
+[[outputs]]
+id = "_7SWL3lxlIQz88eLJ9Ndx"
+uri = "file://attached_assets/image_search/option_A.jpg"
+type = "image"
+title = "Option A — Two pros inspecting house exterior"
+
+[[outputs]]
+id = "m9seWY1d-HiXIr3jNdvdi"
+uri = "file://attached_assets/image_search/option_C.jpg"
+type = "image"
+title = "Option C — Professional with plans assessing modern home"
+
+[[outputs]]
+id = "KyBZujKj2BGM0uF4EFaJE"
+uri = "file://attached_assets/image_search/option_B.jpg"
+type = "image"
+title = "Option B — Inspector with clipboard at door (solo)"
+
+[[outputs]]
+id = "A6QYn5q6F0LuQHUKPLtTs"
+uri = "file://attached_assets/image_search/option_D.jpg"
+type = "image"
+title = "Option D — Home For Sale sign (sales-y, probably skip)"
+
+[[outputs]]
+id = "w7sxlszoGhgsCfE9m7pEg"
+uri = "file://attached_assets/image_search/norris-1-creek-sunset.jpg"
+type = "image"
+title = "1 — Norris Creek Sunset"
+
+[[outputs]]
+id = "mMObuwVnaQGnJJTHxVPgk"
+uri = "file://attached_assets/image_search/norris-2-lake-sunset.jpg"
+type = "image"
+title = "2 — Norris Lake Sunset"
+
+[[outputs]]
+id = "PlCOEA6taeH5w58p-hR3Q"
+uri = "file://attached_assets/image_search/norris-3-lake-golden.jpg"
+type = "image"
+title = "3 — Golden Hour on Lake"
+
+[[outputs]]
+id = "edNe3PgknwMPdd9RLtOGc"
+uri = "file://attached_assets/image_search/norris-4-scenic.jpg"
+type = "image"
+title = "4 — Scenic Norris Lake, TN"
+
+[[outputs]]
+id = "0TCRnaGnIJlKuwQtm0g34"
+uri = "file://attached_assets/image_search/norris-5-golden-hour-tn.jpg"
+type = "image"
+title = "5 — Golden Hour, NE Tennessee"
+
+[[outputs]]
+id = "I0uRkx4XFUGqAi-3AytNJ"
+uri = "file://equityteam-session-summary.pdf"
+type = "pdf"
+title = "EquityTeam Work Session Summary — May 21, 2026"
+
+[[outputs]]
+id = "zsVDKy81ptWsy5BsJy4kA"
+uri = "file://EquityTeam_Website_Changes_May22_2026.pdf"
+type = "pdf"
+title = "EquityTeam Website Changes — May 22, 2026 (for Mark Thompson)"
+
+[[outputs]]
+id = "2d3HXHSy2bBX72hfM14Op"
+uri = "file://EquityTeam-Site-Updates-May23-2026.pdf"
+type = "pdf"
+title = "EquityTeam Site Updates — May 23, 2026"
+
+[[outputs]]
+id = "YlnOT3gN1E02wpQoL9Pru"
+uri = "file://artifacts/et-website-v1/public/images/locations/heroes/amberley-village-hero.png"
+type = "image"
+title = "Amberley Village Hero — Golden Hour"

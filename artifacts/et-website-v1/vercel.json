@@ -1,0 +1,1041 @@
+{
+  "framework": "vite",
+  "buildCommand": "pnpm run build:vercel",
+  "outputDirectory": "dist/public",
+  "installCommand": "pnpm install",
+  "redirects": [
+    {
+      "source": "/home-concierge",
+      "destination": "/property-services",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-management",
+      "destination": "/commercial-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/locations",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    },
+    {
+      "source": "/norris-lake-vacation-rental-management",
+      "destination": "https://deerfieldvacationrentals.com",
+      "permanent": true
+    },
+    {
+      "source": "/amberley-village-property-management",
+      "destination": "/locations/cincinnati/amberley-village",
+      "permanent": true
+    },
+    {
+      "source": "/anderson-township-property-management",
+      "destination": "/locations/cincinnati/anderson-township",
+      "permanent": true
+    },
+    {
+      "source": "/blue-ash-property-management",
+      "destination": "/locations/cincinnati/blue-ash",
+      "permanent": true
+    },
+    {
+      "source": "/camp-washington-property-management",
+      "destination": "/locations/cincinnati/camp-washington",
+      "permanent": true
+    },
+    {
+      "source": "/clifton-property-management",
+      "destination": "/locations/cincinnati/clifton",
+      "permanent": true
+    },
+    {
+      "source": "/college-hill-property-management",
+      "destination": "/locations/cincinnati/college-hill",
+      "permanent": true
+    },
+    {
+      "source": "/columbia-tusculum-property-management",
+      "destination": "/locations/cincinnati/columbia-tusculum",
+      "permanent": true
+    },
+    {
+      "source": "/covedale-property-management",
+      "destination": "/locations/cincinnati/covedale",
+      "permanent": true
+    },
+    {
+      "source": "/deer-park-property-management",
+      "destination": "/locations/cincinnati/deer-park",
+      "permanent": true
+    },
+    {
+      "source": "/delhi-property-management",
+      "destination": "/locations/cincinnati/delhi",
+      "permanent": true
+    },
+    {
+      "source": "/downtown-property-management",
+      "destination": "/locations/cincinnati/downtown",
+      "permanent": true
+    },
+    {
+      "source": "/east-walnut-hills-property-management",
+      "destination": "/locations/cincinnati/east-walnut-hills",
+      "permanent": true
+    },
+    {
+      "source": "/evanston-property-management",
+      "destination": "/locations/cincinnati/evanston",
+      "permanent": true
+    },
+    {
+      "source": "/forest-park-property-management",
+      "destination": "/locations/cincinnati/forest-park",
+      "permanent": true
+    },
+    {
+      "source": "/green-township-property-management",
+      "destination": "/locations/cincinnati/green-township",
+      "permanent": true
+    },
+    {
+      "source": "/hamilton-property-management",
+      "destination": "/locations/cincinnati/hamilton",
+      "permanent": true
+    },
+    {
+      "source": "/harrison-property-management",
+      "destination": "/locations/cincinnati/harrison",
+      "permanent": true
+    },
+    {
+      "source": "/hyde-park-property-management",
+      "destination": "/locations/cincinnati/hyde-park",
+      "permanent": true
+    },
+    {
+      "source": "/indian-hill-property-management",
+      "destination": "/locations/cincinnati/indian-hill",
+      "permanent": true
+    },
+    {
+      "source": "/kennedy-heights-property-management",
+      "destination": "/locations/cincinnati/kennedy-heights",
+      "permanent": true
+    },
+    {
+      "source": "/kenwood-property-management",
+      "destination": "/locations/cincinnati/kenwood",
+      "permanent": true
+    },
+    {
+      "source": "/lebanon-property-management",
+      "destination": "/locations/cincinnati/lebanon",
+      "permanent": true
+    },
+    {
+      "source": "/liberty-township-property-management",
+      "destination": "/locations/cincinnati/liberty-township",
+      "permanent": true
+    },
+    {
+      "source": "/loveland-property-management",
+      "destination": "/locations/cincinnati/loveland",
+      "permanent": true
+    },
+    {
+      "source": "/madeira-property-management",
+      "destination": "/locations/cincinnati/madeira",
+      "permanent": true
+    },
+    {
+      "source": "/madisonville-property-management",
+      "destination": "/locations/cincinnati/madisonville",
+      "permanent": true
+    },
+    {
+      "source": "/mariemont-property-management",
+      "destination": "/locations/cincinnati/mariemont",
+      "permanent": true
+    },
+    {
+      "source": "/mason-property-management",
+      "destination": "/locations/cincinnati/mason",
+      "permanent": true
+    },
+    {
+      "source": "/milford-property-management",
+      "destination": "/locations/cincinnati/milford",
+      "permanent": true
+    },
+    {
+      "source": "/monfort-heights-property-management",
+      "destination": "/locations/cincinnati/monfort-heights",
+      "permanent": true
+    },
+    {
+      "source": "/montgomery-property-management",
+      "destination": "/locations/cincinnati/montgomery",
+      "permanent": true
+    },
+    {
+      "source": "/mount-auburn-property-management",
+      "destination": "/locations/cincinnati/mount-auburn",
+      "permanent": true
+    },
+    {
+      "source": "/mount-healthy-property-management",
+      "destination": "/locations/cincinnati/mount-healthy",
+      "permanent": true
+    },
+    {
+      "source": "/mount-lookout-property-management",
+      "destination": "/locations/cincinnati/mount-lookout",
+      "permanent": true
+    },
+    {
+      "source": "/mount-washington-property-management",
+      "destination": "/locations/cincinnati/mount-washington",
+      "permanent": true
+    },
+    {
+      "source": "/mt-adams-property-management",
+      "destination": "/locations/cincinnati/mt-adams",
+      "permanent": true
+    },
+    {
+      "source": "/northside-property-management",
+      "destination": "/locations/cincinnati/northside",
+      "permanent": true
+    },
+    {
+      "source": "/norwood-property-management",
+      "destination": "/locations/cincinnati/norwood",
+      "permanent": true
+    },
+    {
+      "source": "/oakley-property-management",
+      "destination": "/locations/cincinnati/oakley",
+      "permanent": true
+    },
+    {
+      "source": "/over-the-rhine-property-management",
+      "destination": "/locations/cincinnati/over-the-rhine",
+      "permanent": true
+    },
+    {
+      "source": "/pleasant-ridge-property-management",
+      "destination": "/locations/cincinnati/pleasant-ridge",
+      "permanent": true
+    },
+    {
+      "source": "/sayler-park-property-management",
+      "destination": "/locations/cincinnati/sayler-park",
+      "permanent": true
+    },
+    {
+      "source": "/sharonville-property-management",
+      "destination": "/locations/cincinnati/sharonville",
+      "permanent": true
+    },
+    {
+      "source": "/springdale-property-management",
+      "destination": "/locations/cincinnati/springdale",
+      "permanent": true
+    },
+    {
+      "source": "/terrace-park-property-management",
+      "destination": "/locations/cincinnati/terrace-park",
+      "permanent": true
+    },
+    {
+      "source": "/walnut-hills-property-management",
+      "destination": "/locations/cincinnati/walnut-hills",
+      "permanent": true
+    },
+    {
+      "source": "/west-chester-property-management",
+      "destination": "/locations/cincinnati/west-chester",
+      "permanent": true
+    },
+    {
+      "source": "/westwood-property-management",
+      "destination": "/locations/cincinnati/westwood",
+      "permanent": true
+    },
+    {
+      "source": "/white-oak-property-management",
+      "destination": "/locations/cincinnati/white-oak",
+      "permanent": true
+    },
+    {
+      "source": "/winton-place-property-management",
+      "destination": "/locations/cincinnati/winton-place",
+      "permanent": true
+    },
+    {
+      "source": "/wyoming-property-management",
+      "destination": "/locations/cincinnati/wyoming",
+      "permanent": true
+    },
+    {
+      "source": "/bellbrook-property-management",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    },
+    {
+      "source": "/bellefontaine-property-management",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    },
+    {
+      "source": "/brookville-property-management",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    },
+    {
+      "source": "/butler-township-property-management",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    },
+    {
+      "source": "/cedarville-property-management",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    },
+    {
+      "source": "/beavercreek-property-management",
+      "destination": "/locations/dayton/beavercreek",
+      "permanent": true
+    },
+    {
+      "source": "/centerville-property-management",
+      "destination": "/locations/dayton/centerville",
+      "permanent": true
+    },
+    {
+      "source": "/clayton-property-management",
+      "destination": "/locations/dayton/clayton",
+      "permanent": true
+    },
+    {
+      "source": "/eaton-property-management",
+      "destination": "/locations/dayton/eaton",
+      "permanent": true
+    },
+    {
+      "source": "/englewood-property-management",
+      "destination": "/locations/dayton/englewood",
+      "permanent": true
+    },
+    {
+      "source": "/fairborn-property-management",
+      "destination": "/locations/dayton/fairborn",
+      "permanent": true
+    },
+    {
+      "source": "/franklin-property-management",
+      "destination": "/locations/dayton/franklin",
+      "permanent": true
+    },
+    {
+      "source": "/germantown-property-management",
+      "destination": "/locations/dayton/germantown",
+      "permanent": true
+    },
+    {
+      "source": "/greenville-property-management",
+      "destination": "/locations/dayton/greenville",
+      "permanent": true
+    },
+    {
+      "source": "/harrison-township-property-management",
+      "destination": "/locations/dayton/harrison-township",
+      "permanent": true
+    },
+    {
+      "source": "/huber-heights-property-management",
+      "destination": "/locations/dayton/huber-heights",
+      "permanent": true
+    },
+    {
+      "source": "/kettering-property-management",
+      "destination": "/locations/dayton/kettering",
+      "permanent": true
+    },
+    {
+      "source": "/miami-township-property-management",
+      "destination": "/locations/dayton/miami-township",
+      "permanent": true
+    },
+    {
+      "source": "/miamisburg-property-management",
+      "destination": "/locations/dayton/miamisburg",
+      "permanent": true
+    },
+    {
+      "source": "/oakwood-property-management",
+      "destination": "/locations/dayton/oakwood",
+      "permanent": true
+    },
+    {
+      "source": "/piqua-property-management",
+      "destination": "/locations/dayton/piqua",
+      "permanent": true
+    },
+    {
+      "source": "/riverside-property-management",
+      "destination": "/locations/dayton/riverside",
+      "permanent": true
+    },
+    {
+      "source": "/springboro-property-management",
+      "destination": "/locations/dayton/springboro",
+      "permanent": true
+    },
+    {
+      "source": "/springfield-property-management",
+      "destination": "/locations/dayton/springfield",
+      "permanent": true
+    },
+    {
+      "source": "/sugarcreek-township-property-management",
+      "destination": "/locations/dayton/sugarcreek-township",
+      "permanent": true
+    },
+    {
+      "source": "/tipp-city-property-management",
+      "destination": "/locations/dayton/tipp-city",
+      "permanent": true
+    },
+    {
+      "source": "/trotwood-property-management",
+      "destination": "/locations/dayton/trotwood",
+      "permanent": true
+    },
+    {
+      "source": "/troy-property-management",
+      "destination": "/locations/dayton/troy",
+      "permanent": true
+    },
+    {
+      "source": "/union-property-management",
+      "destination": "/locations/dayton/union",
+      "permanent": true
+    },
+    {
+      "source": "/vandalia-property-management",
+      "destination": "/locations/dayton/vandalia",
+      "permanent": true
+    },
+    {
+      "source": "/washington-township-property-management",
+      "destination": "/locations/dayton/washington-township",
+      "permanent": true
+    },
+    {
+      "source": "/waynesville-property-management",
+      "destination": "/locations/dayton/waynesville",
+      "permanent": true
+    },
+    {
+      "source": "/west-carrollton-property-management",
+      "destination": "/locations/dayton/west-carrollton",
+      "permanent": true
+    },
+    {
+      "source": "/xenia-property-management",
+      "destination": "/locations/dayton/xenia",
+      "permanent": true
+    },
+    {
+      "source": "/yellow-springs-property-management",
+      "destination": "/locations/dayton/yellow-springs",
+      "permanent": true
+    },
+    {
+      "source": "/middletown-property-management",
+      "destination": "/locations/cincinnati/middletown",
+      "permanent": true
+    },
+    {
+      "source": "/sycamore-property-management",
+      "destination": "/locations/cincinnati/sycamore",
+      "permanent": true
+    },
+    {
+      "source": "/western-hills-property-management",
+      "destination": "/locations/cincinnati/western-hills",
+      "permanent": true
+    },
+    {
+      "source": "/properties/for-rent",
+      "destination": "/for-rent",
+      "permanent": true
+    },
+    {
+      "source": "/properties-for-rent",
+      "destination": "/for-rent",
+      "permanent": true
+    },
+    {
+      "source": "/properties/rental/dayton",
+      "destination": "/for-rent",
+      "permanent": true
+    },
+    {
+      "source": "/properties/properties-for-rent-v01-00",
+      "destination": "/for-rent",
+      "permanent": true
+    },
+    {
+      "source": "/properties/for-sale",
+      "destination": "/for-sale",
+      "permanent": true
+    },
+    {
+      "source": "/properties-for-sale",
+      "destination": "/for-sale",
+      "permanent": true
+    },
+    {
+      "source": "/for-sale-listings-dayton",
+      "destination": "/for-sale",
+      "permanent": true
+    },
+    {
+      "source": "/for-sale-listings-dayton-v02-00",
+      "destination": "/for-sale",
+      "permanent": true
+    },
+    {
+      "source": "/portal-login",
+      "destination": "/portal-logins",
+      "permanent": true
+    },
+    {
+      "source": "/company/about",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/our-story",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/our-values",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/past-present-future",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/company/contact",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/calendar/online-meeting-1/info",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/services/property-management-residential",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/property-management-residential",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/property-management-fees",
+      "destination": "/residential-property-management#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/menu-services-pricing",
+      "destination": "/residential-property-management#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/pricing-compare-cincinnati",
+      "destination": "/residential-property-management#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/realtor-referrals",
+      "destination": "/realtor-referral-program",
+      "permanent": true
+    },
+    {
+      "source": "/agents",
+      "destination": "/realtor-referral-program",
+      "permanent": true
+    },
+    {
+      "source": "/legal-disclosures",
+      "destination": "/terms-and-conditions",
+      "permanent": true
+    },
+    {
+      "source": "/shop",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/shop-category/owners",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/checkout",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/ohio/cincinnati",
+      "destination": "/locations/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/cincinnati",
+      "destination": "/locations/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/additonally-insured-policy",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/equity-team-news",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/all-blogs",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs/tenants",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs/owners-investors",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/jobs",
+      "destination": "/careers",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/apply/:path*",
+      "destination": "/careers",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/detail/:path*",
+      "destination": "/careers",
+      "permanent": true
+    },
+    {
+      "source": "/madisonville-property-management-company",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    },
+    {
+      "source": "/ohio-security-deposit-law",
+      "destination": "/blog/ohio-security-deposit-law",
+      "permanent": true
+    },
+    {
+      "source": "/ohio-landlord-tenant-law",
+      "destination": "/blog/ohio-landlord-tenant-law",
+      "permanent": true
+    },
+    {
+      "source": "/rent-your-house-cincinnati",
+      "destination": "/blog/rent-your-house-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/cincinnati-eviction-process",
+      "destination": "/blog/cincinnati-eviction-process",
+      "permanent": true
+    },
+    {
+      "source": "/real-estate-investing-cincinnati",
+      "destination": "/blog/real-estate-investing-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/water-damage",
+      "destination": "/blog/water-damage",
+      "permanent": true
+    },
+    {
+      "source": "/keeping-tenants-happy",
+      "destination": "/blog/keeping-tenants-happy",
+      "permanent": true
+    },
+    {
+      "source": "/rental-amenities",
+      "destination": "/blog/rental-amenities",
+      "permanent": true
+    },
+    {
+      "source": "/buying-investment-property-cincinnati",
+      "destination": "/blog/buying-investment-property-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/drafting-lease-agreements",
+      "destination": "/blog/drafting-lease-agreements",
+      "permanent": true
+    },
+    {
+      "source": "/rental-property-renovations",
+      "destination": "/blog/rental-property-renovations",
+      "permanent": true
+    },
+    {
+      "source": "/rental-property-advertising",
+      "destination": "/blog/rental-property-advertising",
+      "permanent": true
+    },
+    {
+      "source": "/tenant-screenings",
+      "destination": "/blog/tenant-screenings",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-maintain-rental-property",
+      "destination": "/blog/how-to-maintain-rental-property",
+      "permanent": true
+    },
+    {
+      "source": "/pricing-cincinnati-rental",
+      "destination": "/blog/pricing-cincinnati-rental",
+      "permanent": true
+    },
+    {
+      "source": "/attracting-long-term-tenants",
+      "destination": "/blog/attracting-long-term-tenants",
+      "permanent": true
+    },
+    {
+      "source": "/a-tenants-guide-to-frozen-pipes-30",
+      "destination": "/blog/frozen-pipes-guide",
+      "permanent": true
+    },
+    {
+      "source": "/renting-vs-selling-in-cincinnati-ohio-21",
+      "destination": "/blog/renting-vs-selling-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/the-link-between-the-eviction-crisis-and-application-fraud-23",
+      "destination": "/blog/application-fraud-eviction",
+      "permanent": true
+    },
+    {
+      "source": "/4-steps-to-finding-the-perfect-rental-home-in-cincinnati-ohio-3",
+      "destination": "/blog/4-steps-to-finding-the-perfect-rental-home",
+      "permanent": true
+    },
+    {
+      "source": "/landlord-tenant-laws-in-ohio-12",
+      "destination": "/blog/landlord-tenant-laws-ohio",
+      "permanent": true
+    },
+    {
+      "source": "/9-tips-for-diy-landlords-19",
+      "destination": "/blog/9-tips-diy-landlords",
+      "permanent": true
+    },
+    {
+      "source": "/finding-a-rental-property-in-cincinnati-during-the-covid-19-pandemic-14",
+      "destination": "/blog/finding-rental-during-covid",
+      "permanent": true
+    },
+    {
+      "source": "/tips-for-collecting-rent-during-the-covid-19-pandemic-13",
+      "destination": "/blog/collecting-rent-during-covid",
+      "permanent": true
+    },
+    {
+      "source": "/cincinnati-makes-lists-of-top-residential-real-estate-investment-markets-2017-17",
+      "destination": "/blog/cincinnati-top-investment-market",
+      "permanent": true
+    },
+    {
+      "source": "/17-reasons-to-hire-a-property-manager-for-your-cincinnati-rental-property-18",
+      "destination": "/blog/17-reasons-hire-property-manager",
+      "permanent": true
+    },
+    {
+      "source": "/is-it-time-to-hire-a-professional-property-manager-11",
+      "destination": "/blog/time-to-hire-property-manager",
+      "permanent": true
+    },
+    {
+      "source": "/landlord-tips-taxes",
+      "destination": "/blog/rental-property-tax-deductions-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/tips-tenant-communication-methods",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tenant-retention-tips",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tips-increase-income-property-owner",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/allow-tenants-paint-rental-property",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/application-terms-conditions",
+      "destination": "https://docs.google.com/document/d/e/2PACX-1vTHckBqH-nl4_ULQSQxWcISpiVwnSZZnxjg3Ne8W-toF7m-1eShrpVctNdlK6dp_aUWwLYqMhQhKhNP/pub",
+      "permanent": true
+    },
+    {
+      "source": "/faq",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/faq/owner-sales",
+      "destination": "/resources/residential-owners#faq",
+      "permanent": true
+    },
+    {
+      "source": "/faq/owner-support",
+      "destination": "/resources/residential-owners#faq",
+      "permanent": true
+    },
+    {
+      "source": "/faq/property-services",
+      "destination": "/resources/property-services#faq",
+      "permanent": true
+    },
+    {
+      "source": "/faq/leasing",
+      "destination": "/resources/residential-tenants#faq",
+      "permanent": true
+    },
+    {
+      "source": "/faq/tenant-support",
+      "destination": "/resources/residential-tenants#faq",
+      "permanent": true
+    },
+    {
+      "source": "/west-end-property-management",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/east-end-property-management",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/corryville-property-management",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/paddock-hills-property-management",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/pendleton-property-management",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/price-hill-property-management",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/north-avondale-property-management",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/bond-hill-property-management",
+      "destination": "/residential-property-management",
+      "permanent": true
+    },
+    {
+      "source": "/protect-your-rental-house-from-frozen-pipes-in-extreme-cold",
+      "destination": "/blog/frozen-pipes-guide",
+      "permanent": true
+    },
+    {
+      "source": "/renting-vs-selling-your-property-in-cincinnati-oh",
+      "destination": "/blog/renting-vs-selling-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/reasons-to-hire-property-manager-cincinnati-rental-property",
+      "destination": "/blog/17-reasons-hire-property-manager",
+      "permanent": true
+    },
+    {
+      "source": "/landlord-guide-property-depreciation",
+      "destination": "/blog/rental-property-tax-deductions-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/impact-of-new-tax-bill-on-residential-real-estate-investing",
+      "destination": "/blog/rental-property-tax-deductions-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/landlord-yearly-checklist",
+      "destination": "/blog/how-to-maintain-rental-property",
+      "permanent": true
+    },
+    {
+      "source": "/rental-safety-standards",
+      "destination": "/blog/smoke-co-detector-compliance-ohio",
+      "permanent": true
+    },
+    {
+      "source": "/tips-decrease-rental-vacancy",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/landlord-guide-set-tenant-expectations",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tips-rental-property-video-tour",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tips-profitable-rental-business",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/foreign-investor-property-management-guide",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/company/team",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/reviews",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/pricing-current",
+      "destination": "/residential-property-management#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/cincinnati/property-management-r/pricing-compare",
+      "destination": "/residential-property-management#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/properties/forsale/listings",
+      "destination": "/for-sale",
+      "permanent": true
+    },
+    {
+      "source": "/properties/for-rent-2",
+      "destination": "/for-rent",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/all-blogs/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/short-term-vacation-rentals",
+      "destination": "/vacation-rental-management",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "/residential-property-management#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/search-rentals",
+      "destination": "/for-rent",
+      "permanent": true
+    },
+    {
+      "source": "/vendor",
+      "destination": "/vendors",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/forms/contact",
+      "destination": "/api/forms/contact"
+    },
+    {
+      "source": "/api/owner-lead",
+      "destination": "/api/owner-lead"
+    },
+    {
+      "source": "/api/nearby-schools",
+      "destination": "/api/nearby-schools"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
