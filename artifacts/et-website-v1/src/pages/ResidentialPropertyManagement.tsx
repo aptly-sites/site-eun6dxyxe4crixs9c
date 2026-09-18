@@ -775,14 +775,14 @@ export default function ResidentialPropertyManagement() {
         <div className="max-w-[1728px] mx-auto">
           <h2 className="sr-only">The Property Management Lifecycle</h2>
           <a
-            href={`${BASE}images/property-management-lifecycle.jpg`}
+            href={`${BASE}images/property-management-lifecycle-clean.jpg`}
             target="_blank"
             rel="noreferrer"
             aria-label="Open the Property Management Lifecycle graphic at full size"
             className="block"
           >
             <img
-              src={`${BASE}images/property-management-lifecycle.jpg`}
+              src={`${BASE}images/property-management-lifecycle-clean.jpg`}
               alt="EquityTeam property management lifecycle from onboarding through market preparation, leasing, tenancy and renewals, move-out, and offboarding"
               width={1728}
               height={910}
