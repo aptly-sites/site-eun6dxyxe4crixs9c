@@ -771,7 +771,7 @@ export default function ResidentialPropertyManagement() {
       {/* ═════════════════════
           4. HOW IT WORKS
       ═════════════════════ */}
-      <section className="bg-[#f8f5ef] py-8 md:py-12 px-4 md:px-8">
+      <section className="bg-white py-8 md:py-12 px-4 md:px-8">
         <div className="max-w-[1728px] mx-auto">
           <h2 className="sr-only">The Property Management Lifecycle</h2>
           <a
