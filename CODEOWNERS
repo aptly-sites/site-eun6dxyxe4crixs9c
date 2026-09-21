@@ -1,7 +1,0 @@
-# CODEOWNERS — required reviewers for sensitive paths
-# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
-
-
-# Mark approves structural repo changes
-.github/                             @EquityTeam/owners
-CODEOWNERS                           @EquityTeam/owners
